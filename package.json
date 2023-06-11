@@ -24,7 +24,7 @@
   },
   "scripts": {
     "start": "yarn && react-scripts start",
-    "build": "yarn && react-scripts build",
+    "build": "sudo apt-get install -y nodejs && yarn && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
